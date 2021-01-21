@@ -15,3 +15,6 @@
 # Check docker containers in Slave server
     docker ps -a
   ![image](https://user-images.githubusercontent.com/58024415/105357961-8cbcfc00-5c1b-11eb-94cb-7af92a949f5c.png)
+# Remove one or more stacks
+    docker stack rm nginx-deploy
+  ![image](https://user-images.githubusercontent.com/58024415/105358241-ec1b0c00-5c1b-11eb-9ee6-ac65bfc2fb57.png)
