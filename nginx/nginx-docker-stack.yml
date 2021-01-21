@@ -7,7 +7,7 @@ services:
       replicas: 5
       resources:
         limits:
-          cpus: 250m
-          memory: 250m
+          cpus: "0.50"
+          memory: "512M"
     ports:
     - "80:80"
