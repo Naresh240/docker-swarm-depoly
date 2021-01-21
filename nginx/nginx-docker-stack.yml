@@ -11,3 +11,8 @@ services:
           memory: "512M"
     ports:
     - "80:80"
+    networks:
+    - nginx-network
+networks:
+  nginx-network:
+    driver: overlay
