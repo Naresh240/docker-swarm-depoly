@@ -1,0 +1,13 @@
+---
+version: '3.8'
+services:
+  nginx-deploy:
+    image: nginx:latest
+    deploy:
+      replicas: 5
+      resources:
+        limits:
+          cpus: 250m
+          memory: 250m
+    ports:
+    - "80:80"
