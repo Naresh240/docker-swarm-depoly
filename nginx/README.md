@@ -18,3 +18,9 @@
 # Remove one or more stacks
     docker stack rm nginx-deploy
   ![image](https://user-images.githubusercontent.com/58024415/105358241-ec1b0c00-5c1b-11eb-9ee6-ac65bfc2fb57.png)
+# List network
+    docker network ls
+# Display detailed information on one or more networks
+    docker network inspect <network-name>
+# Remove one or more networks
+    docker network rm <network-name>
